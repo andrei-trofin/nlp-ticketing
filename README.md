@@ -8,7 +8,7 @@ Tickets in this category include tickets referring to questions like "How can I 
 "When tracking my order, it says it has arrived but I have never received it.", "When will my order ship?".
 
 Building this porject was a technical test that I have received and decided to turn it into a project. You can see the requirements
-at [this page](technical-test).
+at [this page](technical test.pdf).
 
 This type of classifier will reduce the human interaction with tickets down to where it is needed: solving the actual ticket.
 In this matter, our goal with this project is to find a classifier such that it emphasizes on having a great recall for the
@@ -127,18 +127,18 @@ In this step I tried to clean the text data and make it useful for the modeling 
 2. Measure number of words and add it to manual_features list at index 1.
 3. Measure average word length and add it to manual_features list at index 2.
 <details>
-4. Use function correct_spelling to try to correct the errors in the text.
-5. Use function expand_contractions to expand word like won't and don't to will not and do not.
+4. Use function correct_spelling to try to correct the errors in the text. <br>
+5. Use function expand_contractions to expand word like won't and don't to will not and do not. <br>
 6. Measure the numeric counts of each message (the count of number values present in each message)
-and add it to manual_features at index 3.
+and add it to manual_features at index 3. <br>
 7. Measure the number of each token from token_dictionary found in text and add these values to manual_features
 list; remove them from text after counting to avoid counting token multiple times
-(i.e. a token that can fit inside other token)
-8. Convert text to lowercase.
-9. Count number of emails in each message and remove them.
-10. Count and remove any url from the text.
-11. Count and remove the number of stopwords from the text.
-12. Remove single characters and special characters from text.
+(i.e. a token that can fit inside other token) <br>
+8. Convert text to lowercase. <br>
+9. Count number of emails in each message and remove them. <br>
+10. Count and remove any url from the text. <br>
+11. Count and remove the number of stopwords from the text. <br>
+12. Remove single characters and special characters from text. <br>
 13. Stem the remaining words.
 </details>
 
