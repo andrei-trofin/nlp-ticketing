@@ -8,7 +8,7 @@ Tickets in this category include tickets referring to questions like "How can I 
 "When tracking my order, it says it has arrived but I have never received it.", "When will my order ship?".
 
 Building this porject was a technical test that I have received and decided to turn it into a project. You can see the requirements
-at [this page](technical test.pdf).
+at [this page](technical%20test.pdf).
 
 This type of classifier will reduce the human interaction with tickets down to where it is needed: solving the actual ticket.
 In this matter, our goal with this project is to find a classifier such that it emphasizes on having a great recall for the
