@@ -21,10 +21,10 @@ class as positive.
 
 1. [File/Folder descriptions](#1-filefolder-descriptions)
 2. [Data preparation](#2-data-preparation)
-3. [Preprocessing-And-Modeling](#3-preprocessing-and-modeling)
-    * [Preprocessing](#3.1-subtitle)
-    * [Modeling](#3.2-subtitle-2)
-    * [Experiment](#3.3-experiment)
+3. [Preprocessing and modeling](#3-preprocessing-and-modeling)
+    * [Preprocessing](#31-preprocessing)
+    * [Modeling](#32-modeling)
+    * [Experiment](#33-experiment)
 4. [Web application](#4-web-application)
 5. [Conclusion](#5-conclusion)
 </details>
